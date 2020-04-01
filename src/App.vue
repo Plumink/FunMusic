@@ -23,6 +23,21 @@ export default {
     margin: 0;
     padding: 0;
   }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  ul, li {
+    padding:0;
+    margin:0;
+    list-style:none
+  }
+  input {
+    outline: none;
+    border: none;
+  }
   #app {
     width: 100vw;
     height: 100vh;
