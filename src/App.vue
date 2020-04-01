@@ -1,10 +1,11 @@
 <template>
   <div id="app">
-    <div class="top">
+    <div>
       <Top/>
     </div>
     <div class="left"></div>
     <div class="right"></div>
+    <div class="bottom"></div>
   </div>
 </template>
 
@@ -25,24 +26,24 @@ export default {
   #app {
     width: 100vw;
     height: 100vh;
-    background-color: cadetblue;
-  }
-  .top {
-    width: 100vw;
-    height: 7vh;
-    background-color: #c62f2f;
   }
   .left {
     width: 19vw;
-    height: 93vh;
+    height: 86vh;
     background-color: #f5f5f7;
     float: left;
   }
   .right {
     width: 81vw;
-    height: 93vh;
+    height: 86vh;
     background-color: #fafafa;
     float: left;
+  }
+  .bottom {
+    float: left;
+    width: 100vw;
+    height: 7vh;
+    background-color: red;
   }
 
 </style>
